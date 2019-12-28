@@ -1,0 +1,161 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: white;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/***** HEADER STYLES *****/
+
+header {
+    background: url(https://i.postimg.cc/Dy32CNxP/aina-wedding-bg1.png) no-repeat;
+    width: 100%;
+    height: 500px;
+    margin: 0px 0px;
+}
+
+.main h1 {
+    font-family: volina,sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 135px;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+nav {
+    text-align: center;
+    word-spacing: 25px;  
+}
+nav ul li{
+  display: inline-block;
+  }
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: briller,sans-serif;
+    font-weight: 400;
+    margin: 0px 0px;
+}
+
+/***** MAIN STYLES *****/
+
+.top-half {
+    font-family: volina,sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    margin-top: -50px;
+    color: rgb(231, 176, 213);
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.details-info {
+    background-color: rgb(241, 223, 235);
+    width: 600px;
+    padding: 50px;
+    text-align: center;
+    margin: -60px 275px;
+    height: auto;
+}
+.details-info h2 {
+    font-family: galahad-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.details-info h3 {
+    font-family: galahad-std,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+.details-info p {
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.registry-info {
+    background-color: rgb(241, 223, 235);
+    width: 600px;
+    padding: 50px;
+    text-align: center;
+    margin: -60px 275px;
+    height: auto;
+}
+.registry-info h2 {
+    font-family: galahad-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 50%;
+    padding: 0px 150px;
+}  
+.column img {
+    margin-top: -40px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.rsvp-info {
+    background-color: rgb(241, 223, 235);
+    width: 600px;
+    padding: 50px;
+    text-align: center;
+    margin: -60px 275px;
+    height: auto;
+}
+.rsvp-info h2 {
+    font-family: galahad-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+}
+input[type=submit] {
+    background-color: rgb(231, 176, 213);
+    color: black;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 16px;
+
+}
+input[type=submit]:hover {
+    background-color: white;
+}
+
+
+
